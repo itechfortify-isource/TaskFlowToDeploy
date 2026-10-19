@@ -39,7 +39,7 @@ function renderUser(user) {
   $('user-name').textContent = user.name;
   $('user-email').textContent = user.email;
   $('user-avatar').textContent = user.name.charAt(0).toUpperCase();
-  $('greeting').textContent = `Hi, ${user.name.split(' ')[0]} 👋`;
+  $('greeting').textContent = `Hi, ${user.name.split(' ')[0]} 👋 😊`;
 }
 
 async function loadCurrentUser() {
